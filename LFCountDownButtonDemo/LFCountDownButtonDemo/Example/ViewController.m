@@ -94,7 +94,7 @@
      self.countDownButtonXib.enabled = NO;
     
     //1.1开始倒计时
-    [ self.countDownButtonXib startCountDownWithSecond:10];
+    [ self.countDownButtonXib startCountDownWithSecond:15];
     
     //do something...
     
@@ -120,6 +120,7 @@
 - (IBAction)stopCountDown:(id)sender {
     
     [self.countDownButton stopCountDown];
+    
     [self.countDownButtonXib stopCountDown];
     
 }
