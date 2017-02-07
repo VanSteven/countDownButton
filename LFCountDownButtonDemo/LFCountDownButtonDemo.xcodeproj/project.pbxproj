@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE4C4D841E49B06000B41E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4C4D831E49B06000B41E06 /* Assets.xcassets */; };
+		BE4C4D871E49B06000B41E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4C4D851E49B06000B41E06 /* LaunchScreen.storyboard */; };
+		BE4C4D931E49B09D00B41E06 /* LFCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C4D911E49B09D00B41E06 /* LFCountDownButton.m */; };
+		BE4C4D9B1E49B0A200B41E06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C4D961E49B0A200B41E06 /* AppDelegate.m */; };
+		BE4C4D9C1E49B0A200B41E06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C4D971E49B0A200B41E06 /* main.m */; };
+		BE4C4D9D1E49B0A200B41E06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C4D991E49B0A200B41E06 /* ViewController.m */; };
+		BE4C4D9E1E49B0A200B41E06 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4C4D9A1E49B0A200B41E06 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE4C4D741E49B06000B41E06 /* LFCountDownButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFCountDownButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4C4D831E49B06000B41E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE4C4D881E49B06000B41E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4C4D901E49B09D00B41E06 /* LFCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCountDownButton.h; sourceTree = "<group>"; };
+		BE4C4D911E49B09D00B41E06 /* LFCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCountDownButton.m; sourceTree = "<group>"; };
+		BE4C4D951E49B0A200B41E06 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE4C4D961E49B0A200B41E06 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE4C4D971E49B0A200B41E06 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE4C4D981E49B0A200B41E06 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE4C4D991E49B0A200B41E06 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE4C4D9A1E49B0A200B41E06 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		BE4C4DAD1E49BB3800B41E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE4C4D711E49B06000B41E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE4C4D6B1E49B06000B41E06 = {
+			isa = PBXGroup;
+			children = (
+				BE4C4D761E49B06000B41E06 /* LFCountDownButtonDemo */,
+				BE4C4D751E49B06000B41E06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE4C4D751E49B06000B41E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4D741E49B06000B41E06 /* LFCountDownButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE4C4D761E49B06000B41E06 /* LFCountDownButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4D941E49B0A200B41E06 /* Example */,
+				BE4C4D8E1E49B09D00B41E06 /* LFCountDownButton */,
+				BE4C4D831E49B06000B41E06 /* Assets.xcassets */,
+				BE4C4D851E49B06000B41E06 /* LaunchScreen.storyboard */,
+				BE4C4D881E49B06000B41E06 /* Info.plist */,
+				BE4C4D771E49B06000B41E06 /* Supporting Files */,
+			);
+			path = LFCountDownButtonDemo;
+			sourceTree = "<group>";
+		};
+		BE4C4D771E49B06000B41E06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE4C4D8E1E49B09D00B41E06 /* LFCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4D901E49B09D00B41E06 /* LFCountDownButton.h */,
+				BE4C4D911E49B09D00B41E06 /* LFCountDownButton.m */,
+			);
+			path = LFCountDownButton;
+			sourceTree = "<group>";
+		};
+		BE4C4D941E49B0A200B41E06 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4D971E49B0A200B41E06 /* main.m */,
+				BE4C4D951E49B0A200B41E06 /* AppDelegate.h */,
+				BE4C4D961E49B0A200B41E06 /* AppDelegate.m */,
+				BE4C4D981E49B0A200B41E06 /* ViewController.h */,
+				BE4C4D991E49B0A200B41E06 /* ViewController.m */,
+				BE4C4D9A1E49B0A200B41E06 /* ViewController.xib */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE4C4D731E49B06000B41E06 /* LFCountDownButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4C4D8B1E49B06000B41E06 /* Build configuration list for PBXNativeTarget "LFCountDownButtonDemo" */;
+			buildPhases = (
+				BE4C4D701E49B06000B41E06 /* Sources */,
+				BE4C4D711E49B06000B41E06 /* Frameworks */,
+				BE4C4D721E49B06000B41E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFCountDownButtonDemo;
+			productName = LFCountDownButtonDemo;
+			productReference = BE4C4D741E49B06000B41E06 /* LFCountDownButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE4C4D6C1E49B06000B41E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "柳锋兰";
+				TargetAttributes = {
+					BE4C4D731E49B06000B41E06 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HG2J8Z23E3;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = BE4C4D6F1E49B06000B41E06 /* Build configuration list for PBXProject "LFCountDownButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE4C4D6B1E49B06000B41E06;
+			productRefGroup = BE4C4D751E49B06000B41E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE4C4D731E49B06000B41E06 /* LFCountDownButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE4C4D721E49B06000B41E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4C4D9E1E49B0A200B41E06 /* ViewController.xib in Resources */,
+				BE4C4D871E49B06000B41E06 /* LaunchScreen.storyboard in Resources */,
+				BE4C4D841E49B06000B41E06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE4C4D701E49B06000B41E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4C4D931E49B09D00B41E06 /* LFCountDownButton.m in Sources */,
+				BE4C4D9C1E49B0A200B41E06 /* main.m in Sources */,
+				BE4C4D9B1E49B0A200B41E06 /* AppDelegate.m in Sources */,
+				BE4C4D9D1E49B0A200B41E06 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE4C4D851E49B06000B41E06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE4C4DAD1E49BB3800B41E06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE4C4D891E49B06000B41E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE4C4D8A1E49B06000B41E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE4C4D8C1E49B06000B41E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HG2J8Z23E3;
+				INFOPLIST_FILE = LFCountDownButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanliufeng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "df5fcd52-5143-4c8a-84ca-75ba432f1178";
+				PROVISIONING_PROFILE_SPECIFIER = com.lanliufeng;
+			};
+			name = Debug;
+		};
+		BE4C4D8D1E49B06000B41E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LFCountDownButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanliufeng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE4C4D6F1E49B06000B41E06 /* Build configuration list for PBXProject "LFCountDownButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4C4D891E49B06000B41E06 /* Debug */,
+				BE4C4D8A1E49B06000B41E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4C4D8B1E49B06000B41E06 /* Build configuration list for PBXNativeTarget "LFCountDownButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4C4D8C1E49B06000B41E06 /* Debug */,
+				BE4C4D8D1E49B06000B41E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE4C4D6C1E49B06000B41E06 /* Project object */;
+}
