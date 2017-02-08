@@ -1,5 +1,5 @@
 # countDownButton
-![](https://travis-ci.org/iOS-lancelot/countDownButton.svg?branch=master)
+<!--![](https://travis-ci.org/iOS-lancelot/countDownButton.svg?branch=master)-->
 
 
 countDownButton,子类化UIButton实现iOS倒计时按钮,常常用于注册等发送验证码的时候进行倒计时操作
