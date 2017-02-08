@@ -1,4 +1,3 @@
 language: objective-c
 xcode_project: ./LFCountDownButtonDemo.xcodeproj
 xcode_scheme: LFCountDownButtonDemo
-osx_image: xcode8.1
