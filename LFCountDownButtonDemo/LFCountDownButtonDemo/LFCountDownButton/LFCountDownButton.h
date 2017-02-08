@@ -1,6 +1,6 @@
 //
 //  LFCountDownButton.h
-//  LFCountDownButton
+//  LFCountDownButton version 1.0.0
 //
 //  Created by 兰柳锋 on 2017/2/7.
 //  Copyright © 2017年 柳锋兰. All rights reserved.
