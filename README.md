@@ -98,7 +98,7 @@ Copy countDownButton.h countDownButton.m in LFCountDownButton/ to your project.
         return @"Obtain again";
     }];
     }
-}
+
 ## License
 
 This code is distributed under the terms and conditions of the MIT license.
