@@ -1,9 +1,2 @@
 language: objective-c
-xcode_project: LFCountDownButtonDemo/LFCountDownButtonDemo.xcodeproj
-xcode_scheme: LFCountDownButtonDemo
-
-script: 
-  - xctool -project LFCountDownButtonDemo/LFCountDownButtonDemo.xcodeproj -scheme LFCountDownButtonDemo build test CODE_SIGN_IDENTITY=\"\" CODE_SIGNING_REQUIRED=NO
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+os: osx
